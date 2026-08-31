@@ -1,0 +1,69 @@
+Stock Scanner — Terms of Use
+Copyright (c) 2026 levelbench. All rights reserved.
+
+Stock Scanner is distributed free of charge as a compiled Windows application.
+The source code is NOT published and is not covered by any open-source licence.
+
+YOU MAY
+  - download, install and use the application, including for your own trading,
+    on any number of computers you own or control;
+  - keep copies of the distribution archive for backup.
+
+YOU MAY NOT
+  - sell, rent, sublicense the application or charge for access to it;
+  - distribute modified builds, or repackage the application as your own;
+  - decompile, disassemble or otherwise reverse engineer it, except to the
+    extent such a restriction is prohibited by applicable law.
+
+NO WARRANTY
+  The application is provided "AS IS", without warranty of any kind, express or
+  implied, including but not limited to the warranties of merchantability,
+  fitness for a particular purpose and non-infringement. In no event shall the
+  author be liable for any claim, damages or other liability arising from the
+  use of the application.
+
+NOT FINANCIAL ADVICE
+  Stock Scanner is a technical analysis tool for educational purposes. Its
+  signals, backtest results and AI-generated commentary are not investment
+  advice and do not guarantee future returns. Trading involves risk of loss;
+  every trading decision is yours alone.
+
+MARKET DATA
+  The application ships with no market data. Data is downloaded with YOUR OWN
+  provider key (Alpaca, Schwab, Massive/Polygon-compatible) directly from that
+  provider to your machine, under that provider's terms. The author neither
+  redistributes market data nor receives it.
+
+--------------------------------------------------------------------------------
+
+Stock Scanner — условия использования
+© 2026 levelbench. Все права защищены.
+
+Stock Scanner раздаётся бесплатно в виде готового приложения для Windows.
+Исходный код НЕ публикуется и не подпадает ни под одну открытую лицензию.
+
+МОЖНО
+  - скачивать, устанавливать и пользоваться приложением, в том числе для
+    собственной торговли, на любом числе своих компьютеров;
+  - хранить копии архива дистрибутива для себя.
+
+НЕЛЬЗЯ
+  - продавать приложение, сдавать его в аренду, брать плату за доступ к нему;
+  - распространять изменённые сборки и выдавать приложение за своё;
+  - декомпилировать, дизассемблировать и иначе вскрывать код, кроме случаев,
+    когда такой запрет противоречит применимому праву.
+
+БЕЗ ГАРАНТИЙ
+  Приложение поставляется «КАК ЕСТЬ», без каких-либо гарантий. Автор не отвечает
+  за убытки и любой иной ущерб, возникший при его использовании.
+
+НЕ ИНВЕСТИЦИОННАЯ РЕКОМЕНДАЦИЯ
+  Stock Scanner — инструмент технического анализа для образовательных целей.
+  Его сигналы, результаты бэктестов и разборы модели не являются инвестиционной
+  рекомендацией и не гарантируют будущую доходность. Торговля связана с риском
+  потери капитала; все решения вы принимаете самостоятельно.
+
+РЫНОЧНЫЕ ДАННЫЕ
+  Приложение не содержит рыночных данных. Они загружаются ПО ВАШЕМУ ключу
+  (Alpaca, Schwab, Massive/Polygon-совместимый) напрямую от поставщика на вашу
+  машину и на его условиях. Автор данные не распространяет и не получает.
