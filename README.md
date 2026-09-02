@@ -6,19 +6,20 @@
 
 **[⬇ Download the latest release](../../releases/latest)**
 
-![Scanner and chart](screenshots/scanner.png)
+
+![Scanner and chart](scanner.png)
 
 *Scan across ~13 000 US tickers, and the chart of the selected one with hand-drawn levels and a virtual order.*
 
-![Trade journal](screenshots/journal.png)
+![Trade journal](journal.png)
 
 *The journal: every trade attributed to the scanner that found it, resolved against minute bars, with an equity curve and per-setup statistics.*
 
-![Profile backtest](screenshots/backtest.png)
+![Profile backtest](backtest.png)
 
 *Backtest of the scanner profiles: day by day, no look-ahead, walk-forward and a portfolio simulation. It reports what the rules actually did — losing runs included.*
 
-![Trade on minute bars](screenshots/intraday.png)
+![Trade on minute bars](intraday.png)
 
 *Any closed trade replayed on minute bars: the entry window, stop and target, and where the position actually left. Daily bars cannot tell which level was hit first — this can.*
 
