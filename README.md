@@ -6,6 +6,22 @@
 
 **[⬇ Download the latest release](../../releases/latest)**
 
+![Scanner and chart](screenshots/scanner.png)
+
+*Scan across ~13 000 US tickers, and the chart of the selected one with hand-drawn levels and a virtual order.*
+
+![Trade journal](screenshots/journal.png)
+
+*The journal: every trade attributed to the scanner that found it, resolved against minute bars, with an equity curve and per-setup statistics.*
+
+![Profile backtest](screenshots/backtest.png)
+
+*Backtest of the scanner profiles: day by day, no look-ahead, walk-forward and a portfolio simulation. It reports what the rules actually did — losing runs included.*
+
+![Trade on minute bars](screenshots/intraday.png)
+
+*Any closed trade replayed on minute bars: the entry window, stop and target, and where the position actually left. Daily bars cannot tell which level was hit first — this can.*
+
 ---
 
 ## English
@@ -32,7 +48,7 @@ To update: download the new archive and unpack it over the old folder. Your data
 
 ### First run
 
-The app starts in demo mode with generated data, so you can look around before connecting anything. For real quotes you need your own data key — pick one provider in **⚙ Settings → 🔑 Data & API keys**:
+On the first run the app asks where to keep your data (next to the executable by default) and offers to load a demo market — fictional tickers DEMO01…DEMO24 with generated prices — so you can look around without a data key. For real quotes you need your own key: pick a provider in **⚙ Settings → 🔑 Data & API keys**:
 
 | Provider | Cost | Notes |
 |---|---|---|
@@ -84,7 +100,7 @@ Windows SmartScreen скажет, что издатель неизвестен: 
 
 ### Первый запуск
 
-Приложение стартует в демо-режиме на сгенерированных данных — можно осмотреться, ничего не подключая. Для настоящих котировок нужен свой ключ данных, источник выбирается в **⚙ Настройки → 🔑 Данные и ключи API**:
+При первом запуске приложение спросит, где хранить данные (по умолчанию — папка рядом с ним), и предложит загрузить демо-рынок: вымышленные тикеры DEMO01…DEMO24 со сгенерированными ценами, чтобы осмотреться без ключа. Для настоящих котировок нужен свой ключ, источник выбирается в **⚙ Настройки → 🔑 Данные и ключи API**:
 
 - **Alpaca** — бесплатный ключ, вся история США (фид IEX);
 - **Schwab** — бесплатно клиентам Schwab/ThinkOrSwim, OAuth;
