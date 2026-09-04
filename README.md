@@ -1,11 +1,10 @@
 # Stock Scanner
 
-**Windows desktop app for US equities swing trading: scanner, backtester, trade journal and AI assistant.** Free, closed source, bring your own market-data key.
+**Windows desktop app for picking US stocks to swing-trade: a scanner over ~13 000 tickers, with a backtester and a journal to check that the picks hold up.** Free, closed source, bring your own market-data key.
 
-*Инструмент для свинг-трейдинга акциями США: сканер, бэктестер, журнал сделок и AI-ассистент. Бесплатно. Русское описание — ниже.*
+*Приложение для отбора американских акций под свинг: сканер по ~13 000 бумаг, а бэктест и журнал — чтобы проверить, чего отбор стоит. Бесплатно. Русское описание — ниже.*
 
 **[⬇ Download the latest release](../../releases/latest)**
-
 
 ![Scanner and chart](scanner.png)
 
@@ -29,7 +28,7 @@
 
 ### What it does
 
-- **Scanner** over ~8000 US stocks with configurable JSON profiles: base/consolidation, EMA pullbacks, adaptive MA signals, relative-strength rank, trend template, dollar-volume and earnings-date filters.
+- **Scanner** over ~13 000 US stocks — the part everything else serves — with configurable JSON profiles: base/consolidation, EMA pullbacks, adaptive MA signals, relative-strength rank, trend template, dollar-volume, earnings-date and gap filters.
 - **Backtester**: day-by-day simulation with no look-ahead, entry/stop/target mechanics, walk-forward (3 windows), portfolio simulation, grid-search parameter optimizer.
 - **Trade journal** with per-setup attribution, equity curve, automatic order analysis down to minute bars, chart snapshots; **paper-trading** mode auto-creates virtual orders from scan signals.
 - **Automation**: daily autopilot (update → scan → notification), price-level alerts.
@@ -75,11 +74,11 @@ Educational tool, not financial advice. Backtest and AI results do not guarantee
 
 ### Что это
 
-Десктоп-приложение (Windows) для свинг-трейдинга акциями США. Полный цикл: **скан → отбор → виртуальный ордер → журнал → бэктест**. Бесплатно, исходный код закрыт.
+Десктоп-приложение (Windows) для **отбора американских акций** под свинг. Сканер — главное; остальное к нему приложено, чтобы отбор было чем проверить: **скан → отбор → виртуальный ордер → журнал → бэктест**. Бесплатно, исходный код закрыт.
 
 | Блок | Что умеет |
 |---|---|
-| **Сканер** | ~8000 акций, профили в JSON: базы, откаты к EMA21, AMA-сигналы, RS-ранг, трендовый шаблон, долларовый объём, фильтр «не входить перед отчётом» |
+| **Сканер** | ~13 000 акций, профили в JSON: базы, откаты к EMA21, AMA-сигналы, RS-ранг, трендовый шаблон, долларовый объём, фильтр гэпов, фильтр «не входить перед отчётом» |
 | **Бэктест** | посуточный прогон без заглядывания в будущее, walk-forward, портфельная симуляция, оптимизатор порогов |
 | **Журнал** | атрибуция сделок к сканерам, кривая доходности, автоанализ ордеров вплоть до минутных баров, снимки графиков, фильтр по периоду, тикеру и статусу |
 | **Paper-trading** | автосоздание виртуальных ордеров по сигналам профиля |
