@@ -44,7 +44,7 @@
 
 Windows SmartScreen will warn you that the publisher is unknown — the build is not code-signed. Click **More info → Run anyway**, or unblock the archive before unpacking (right-click → Properties → Unblock).
 
-To update: download the new archive and unpack it over the old folder. Your data (journal, levels, watchlists, quotes database) lives outside the application folder and survives updates.
+To update: the app tells you when a new version is out — a line in the status bar and, once per version, a window offering to open the release page; it downloads nothing itself. Then download the new archive and unpack it over the old folder. Your data (journal, levels, watchlists, quotes database) lives outside the application folder and survives updates.
 
 ### First run
 
@@ -62,7 +62,7 @@ An OpenAI-compatible key (OpenAI, OpenRouter, a local model) is optional and onl
 
 ### What leaves your machine
 
-Nothing goes to the author: there is no telemetry, no accounts, no servers of ours. The application talks only to the data provider whose key you entered, and — if you enabled AI — to the AI endpoint you configured. Quotes, your journal and your levels are stored locally in SQLite files.
+Nothing goes to the author: there is no telemetry, no accounts, no servers of ours. The application talks to the data provider whose key you entered, to the AI endpoint you configured if you enabled AI, and once a day to GitHub to read the number of the latest release — that request carries nothing but the app's own version, and «Check for updates» in «⚙ Settings» switches it off for good. Quotes, your journal and your levels are stored locally in SQLite files.
 
 ### Disclaimer
 
@@ -96,7 +96,7 @@ Educational tool, not financial advice. Backtest and AI results do not guarantee
 
 Windows SmartScreen скажет, что издатель неизвестен: сборка не подписана сертификатом. Нажмите **Подробнее → Выполнить в любом случае** или снимите блокировку с архива до распаковки (правой кнопкой → Свойства → Разблокировать).
 
-Обновление: скачать новый архив и распаковать поверх старой папки. Данные (журнал, уровни, списки, база котировок) лежат вне папки приложения и обновление переживают.
+Обновление: программа сама скажет, что вышла новая версия — строкой в состоянии и, один раз на версию, окном с предложением открыть страницу выпуска; сама она ничего не скачивает. Дальше: скачать новый архив и распаковать поверх старой папки. Данные (журнал, уровни, списки, база котировок) лежат вне папки приложения и обновление переживают.
 
 ### Первый запуск
 
@@ -112,7 +112,7 @@ Windows SmartScreen скажет, что издатель неизвестен: 
 
 ### Что уходит с вашей машины
 
-Автору — ничего: телеметрии нет, аккаунтов нет, наших серверов нет. Приложение обращается только к поставщику данных, чей ключ вы ввели, и — если включили AI — к указанному вами AI-endpoint. Котировки, журнал и уровни лежат локально в файлах SQLite.
+Автору — ничего: телеметрии нет, аккаунтов нет, наших серверов нет. Приложение обращается к поставщику данных, чей ключ вы ввели, к указанному вами AI-endpoint (если включили AI) и раз в сутки к GitHub — за номером последней версии; в этом запросе нет ничего, кроме версии самой программы, и он выключается галочкой «Проверять обновления» в «⚙ Настройки». Котировки, журнал и уровни лежат локально в файлах SQLite.
 
 ### Отказ от ответственности
 
